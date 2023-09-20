@@ -1,0 +1,36 @@
+.grid{
+    width: 300px;
+    height: 300px;
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-galaxy-background_52683-63441.jpg?w=996&t=st=1695211702~exp=1695212302~hmac=cc9b0838cfad07bb52d6434c5d098cfcd7cebaaedaa49d99be8d0fc5406241f5);
+}
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+.invader{
+    border-radius: 10px;
+    background-image: url(alien.png);    
+    background-size: cover;
+    
+}
+
+.shooter{
+    background-image: url(sapceship.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.laser{
+    background-image: url(laser.png);
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.boom{
+    background-color: rgb(255, 0, 0);
+    box-shadow: rgba(255, 0, 0 0.7);
+}
